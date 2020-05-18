@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-container > .container-fluid {
+  flex: 1 1 auto;
+  padding: 0px;
+  display: flex;
+}
+
+.app-container > .container-fluid .row {
+  align-content: stretch;
+  flex: 1 1 auto;
+}
+
+.app-groups {
+  /*color: white;
+  background: var(--color-primary-700);*/
+  border-right: 1px solid #DEDFE0;
+  flex: 0 1 0%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-groups > div:first-child {
+  margin-top:15px;
+}
+
+.app-groups > div:last-child {
+  margin-bottom: 15px;
+}
+
+.app-groups .spacer {
+  flex: 1;
+}
+
+.app-groups a, .app-groups button {
+  /*color: white;*/
+}
+
+.app-chats {
+  /*color: white;
+  background: var(--color-primary-600);*/
+}
+
+.app-chat {
+  /*color: white;
+  background: var(--color-primary-500);*/
+  flex: 1;
+}
+
+.app-users {
+  /*color: white;
+  background: var(--color-primary-600);*/
+}

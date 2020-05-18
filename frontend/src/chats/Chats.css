@@ -1,0 +1,34 @@
+
+.chats-container .chats {
+    margin: 20px 20px;
+    font-weight: 600;
+}
+
+.chats-container .chats a {
+    /*color: white;*/
+    
+}
+
+.chats-container .chats a > div,
+.chats-container .nav {
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+
+.chats-container .chats a:hover {
+    text-decoration: none;
+}
+
+.chats-container .chats a:hover > div {
+    text-decoration: none;
+    /*background: var(--color-primary-700);*/
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.chats-container .chats a.current div {
+    text-decoration: none;
+    /*background: var(--color-primary-500);*/
+    border-radius: 5px;
+    text-decoration: none;
+}

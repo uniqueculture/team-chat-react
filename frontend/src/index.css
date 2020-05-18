@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+  /*background: var(--color-primary-500);*/
+}
+
+:root {
+
+  --color-primary-100: #ECF2F5;
+  --color-primary-200: #DAE5EB;
+  --color-primary-300: #AFBCC5;
+  --color-primary-400: #78838C;
+  --color-primary-500: #343A40;
+  --color-primary-600: #262D37;
+  --color-primary-700: #1A222E;
+  --color-primary-800: #101725;
+  --color-primary-900: #09101E;
+  --color-primary-transparent-100: rgba(52, 58, 64, 0.08);
+  --color-primary-transparent-200: rgba(52, 58, 64, 0.16);
+  --color-primary-transparent-300: rgba(52, 58, 64, 0.24);
+  --color-primary-transparent-400: rgba(52, 58, 64, 0.32);
+  --color-primary-transparent-500: rgba(52, 58, 64, 0.4);
+  --color-primary-transparent-600: rgba(52, 58, 64, 0.48);
+  --color-success-100: #E2FBD8;
+  --color-success-200: #BFF8B3;
+  --color-success-300: #92EB8A;
+  --color-success-400: #68D869;
+  --color-success-500: #3BBF48;
+  --color-success-600: #2BA442;
+  --color-success-700: #1D893C;
+  --color-success-800: #126E35;
+  --color-success-900: #0B5B30;
+  --color-success-transparent-100: rgba(59, 191, 72, 0.08);
+  --color-success-transparent-200: rgba(59, 191, 72, 0.16);
+  --color-success-transparent-300: rgba(59, 191, 72, 0.24);
+  --color-success-transparent-400: rgba(59, 191, 72, 0.32);
+  --color-success-transparent-500: rgba(59, 191, 72, 0.4);
+  --color-success-transparent-600: rgba(59, 191, 72, 0.48);
+  --color-info-100: #CAFDF5;
+  --color-info-200: #96FBF3;
+  --color-info-300: #61F4F3;
+  --color-info-400: #3ADCE9;
+  --color-info-500: #00BADB;
+  --color-info-600: #0091BC;
+  --color-info-700: #006D9D;
+  --color-info-800: #004E7F;
+  --color-info-900: #003869;
+  --color-info-transparent-100: rgba(0, 186, 219, 0.08);
+  --color-info-transparent-200: rgba(0, 186, 219, 0.16);
+  --color-info-transparent-300: rgba(0, 186, 219, 0.24);
+  --color-info-transparent-400: rgba(0, 186, 219, 0.32);
+  --color-info-transparent-500: rgba(0, 186, 219, 0.4);
+  --color-info-transparent-600: rgba(0, 186, 219, 0.48);
+  --color-warning-100: #FDF2CB;
+  --color-warning-200: #FBE298;
+  --color-warning-300: #F4CB64;
+  --color-warning-400: #EAB23D;
+  --color-warning-500: #DD8E04;
+  --color-warning-600: #BE7202;
+  --color-warning-700: #9F5A02;
+  --color-warning-800: #804301;
+  --color-warning-900: #6A3400;
+  --color-warning-transparent-100: rgba(221, 142, 4, 0.08);
+  --color-warning-transparent-200: rgba(221, 142, 4, 0.16);
+  --color-warning-transparent-300: rgba(221, 142, 4, 0.24);
+  --color-warning-transparent-400: rgba(221, 142, 4, 0.32);
+  --color-warning-transparent-500: rgba(221, 142, 4, 0.4);
+  --color-warning-transparent-600: rgba(221, 142, 4, 0.48);
+  --color-danger-100: #FFD7DA;
+  --color-danger-200: #FFB0BE;
+  --color-danger-300: #FF88AA;
+  --color-danger-400: #FF6BA3;
+  --color-danger-500: #FF3A99;
+  --color-danger-600: #DB2A91;
+  --color-danger-700: #B71D86;
+  --color-danger-800: #931277;
+  --color-danger-900: #7A0B6D;
+  --color-danger-transparent-100: rgba(255, 58, 153, 0.08);
+  --color-danger-transparent-200: rgba(255, 58, 153, 0.16);
+  --color-danger-transparent-300: rgba(255, 58, 153, 0.24);
+  --color-danger-transparent-400: rgba(255, 58, 153, 0.32);
+  --color-danger-transparent-500: rgba(255, 58, 153, 0.4);
+  --color-danger-transparent-600: rgba(255, 58, 153, 0.48)
+}
+
+.dark-scrollbar::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: var(--color-primary-600);
+}
+
+.dark-scrollbar::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: var(--color-primary-800);
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--color-primary-700);
+}

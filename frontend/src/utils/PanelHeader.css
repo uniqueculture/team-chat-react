@@ -1,0 +1,13 @@
+/*.panel-header {
+    border-bottom: 1px solid var(--color-primary-700);
+    padding: 15px 15px 15px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.panel-header h5 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 1em;
+    flex: 1 1 auto;
+}*/

@@ -1,0 +1,96 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-posts {
+    flex: 1 1 auto;
+    overflow:auto;
+    height: 0px;
+}
+
+.chat-message-input {
+    margin: 0px 20px 20px 20px;
+}
+
+.chat-message-input input {
+    /*background: var(--color-primary-600);
+    color: white;
+    border-color: var(--color-primary-500);
+    border-radius: 10px;*/
+    padding: 10px;
+    height: auto;
+}
+
+.chat-message-input input:focus {
+    /*background: var(--color-primary-600);
+    color: white;
+    border-color: var(--color-primary-500);*/
+}
+
+.chat-message-input input:disabled {
+    /*background: var(--color-primary-500);
+    color: gray;
+    border-color: var(--color-primary-600);*/
+}
+
+/* posts specific */
+.posts {
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+
+.posts .post {
+    margin: 20px 0px;
+    display: flex;
+}
+
+.posts .post + .short-post {
+    margin-top: -15px;
+}
+
+.posts .post:first-child {
+    margin-top: 0px;
+}
+
+.posts .post:last-child {
+    margin-bottom: 0px;
+}
+
+.posts .post .post-content {
+    flex: 1 1 0%;
+    margin: 0px 0px 0px 15px;
+}
+
+.posts .post .author {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.posts .post .date {
+    font-size: 0.8em;
+    color: var(--color-primary-400);
+    padding-left: 10px; 
+}
+
+.posts .short-post {
+    margin-bottom: 3px;
+}
+
+.posts .short-post .post-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.posts .short-post .post-content .date {
+    visibility: hidden;
+    font-size: 0.8em;
+    color: var(--color-primary-300);
+    width: 65px;
+    flex: 0 0 65px;
+}
+
+.posts .short-post:hover .post-content .date {
+    visibility: visible;
+}
